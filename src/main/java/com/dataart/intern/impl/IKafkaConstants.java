@@ -17,11 +17,11 @@ public interface IKafkaConstants {
 
     String CLIENT_ID = "client1";
 
-    String TOPIC_NAME = "demo4";
+    String TOPIC_NAME = "device-topic";
 
     String GROUP_ID_CONFIG = "consumerGroup1";
 
-    Integer MAX_NO_MESSAGE_FOUND_COUNT = 10;
+    Integer MAX_NO_MESSAGE_FOUND_COUNT = 100;
 
     String OFFSET_RESET_EARLIER = "earliest";
 
